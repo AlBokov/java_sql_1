@@ -1,4 +1,4 @@
-package ru.netology.banklogin.data;
+package data.test.java.data;
 
 import com.github.javafaker.Faker;
 import lombok.AllArgsConstructor;

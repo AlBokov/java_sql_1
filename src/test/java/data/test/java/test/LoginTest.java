@@ -1,15 +1,13 @@
-package ru.netology.banklogin.test;
+package data.test.java.test;
 
-import ru.netology.banklogin.data.DataHelper;
-import ru.netology.banklogin.data.SQLHelper;
-import lombok.SneakyThrows;
+import data.test.java.data.DataHelper;
+import data.test.java.pages.LoginPage;
 import org.junit.jupiter.api.*;
-import ru.netology.banklogin.page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.banklogin.data.SQLHelper.*;
+import static data.SQLHelper.*;
 
-public class BankLoginTest {
+public class LoginTest {
 
     LoginPage loginPage;
 

@@ -1,4 +1,4 @@
-package ru.netology.banklogin.page;
+package data.test.java.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
